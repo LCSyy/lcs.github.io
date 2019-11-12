@@ -29,7 +29,7 @@ url: "https://github.com/LCSyy/lcsyy.github.io" # the base hostname & protocol f
 # github_username:  LCSyy
 
 # Build settings
-# theme: minima
+theme: minima
 #plugins:
 #  - jekyll-feed
 #  - jekyll-paginate
