@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: LCS Page
 email: your-email@example.com
+name: LCS
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my description.
+  Qt, C++ & Rust.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -57,7 +58,7 @@ plugins:
 
 # Jekyll configuration
 
-#name: Xixia
+# name: Xixia
 #description: Welcome to Xixia！
 
 # url is currently only used only for the RSS feed in feed.xml
