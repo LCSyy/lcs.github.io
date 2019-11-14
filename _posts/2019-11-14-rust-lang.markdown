@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Rust Basics"
+date:   2019-11-14 11:10:30 +0800
+categories: Rust
+tags: Rust
+description: The Rust basics.
+---
+# Rust
+
+## The Rust Language Reference
+
+- 常用编程概念
+  - 变量
+  - 数据类型
+    - 内置类型
+    - 函数
+    - 注释
+    - 控制流
+- 所有权
+- 结构体
+- enum
+- 包，crates和模块
+- 常用集合类型
+- 错误处理
+- 通用类型，特性和生命期
+- 自动测试
+- 函数式语言特性 - 闭包/匿名函数
+- Cargo 和 Crates.io
+- 智能指针
+- 并发编程
+- Rust的面向对象特性
+- 模式与匹配
+- 高级特性
+
+## The Rustonomicon - Unsafe Rust Programs
+
+**无论何种情况，safe rust不会导致未定义行为。**
+
+`unsafe`
+- 函数定义
+- 特性定义
+- 代码块
+- 特性实现
+
+unsafe can do
+- 解引用原始指针
+- 调用`unsafe`函数（C 函数，编译器内联函数以及原始内存分配器）
+- 实现`unsafe`特性
+- 修改静态变量
+- 访问`union`的数据
